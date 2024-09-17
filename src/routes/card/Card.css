@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+span{
+    margin-left: 10px;
+}
+nav{
+    padding-top: 3%;
+    padding-left: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    #bio{
+        padding: 30px;
+        margin-top: 50px;
+        color: white;
+        background-color: rgb(48, 167, 215);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 15px;
+        height: 30vh;
+        width: 70%;
+    }
+}
+
+
+#Tipos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 70%;
+    
+    #elétrico{
+        background-color: orange;
+        width: 100px;
+        border-radius: 5px;
+        color: white;
+    }
+    #Fogo{
+        background-color: red;
+        width: 100px;
+        border-radius: 5px;
+        color: white;
+    }
+    #Voador{
+        background-color: rgb(69, 117, 223);;
+        width: 100px;
+        border-radius: 5px;
+        color: white;
+    }
+    #Grama{
+        background-color: rgb(54, 235, 54);;
+        width: 100px;
+        border-radius: 5px;
+        color: white;
+    }
+    #Venenoso{
+        background-color: rgb(214, 7, 187);
+        color: white;
+        width: 100px;
+        border-radius: 5px;
+    }
+    #Água{
+        background-color: rgb(21, 102, 207);
+        color: white;
+        width: 100px;
+        border-radius: 5px;
+    }
+    #Normal{
+        background-color: rgb(170, 153, 122);
+        color: white;
+        width: 100px;
+        border-radius: 5px;
+    }
+}
+
+#icone{
+    font-size: 30px;
+    color: red;
+}

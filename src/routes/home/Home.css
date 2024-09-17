@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+main {
+    height: 100vh;
+}
+#header {
+    background-color: red;
+    height: 15vh;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#menu{
+    padding-top: 12%;
+    padding-left: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+
+
+#imagem {
+    width: 200px;
+    border: 5px solid rgb(1, 162, 255);
+    filter: grayscale(100%) brightness(50%) ;
+    border-radius: 100px;
+    transition: 0.5s;
+    display: block;
+}
+#imagem:hover{
+    width: 220px;
+    border: 5px solid rgb(1, 162, 255);
+    filter: grayscale(0%);
+    border-radius: 120px;
+    transition: 0.5s;
+    
+}
